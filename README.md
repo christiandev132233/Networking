@@ -1,7 +1,7 @@
 # DNS Exercise with AWS EC2, NGINX, and Cloudflare
 
-**Module** · Codeco Networking  
-**Lab date** · 12 November 2026
+**Module** ·  Networking  
+**Lab date** · 14 November 2026
 
 I launched an Ubuntu instance on Amazon EC2, configured NGINX using EC2 user data, and used Cloudflare to connect a custom subdomain to the web server. During the exercise, EC2 Instance Connect reported that SSH was blocked and Cloudflare returned a 522 timeout. A later browser check displayed the NGINX welcome page.
 
@@ -45,7 +45,7 @@ Evidence: [EC2 user data](Screenshot%202026-11-12%20210602.png)
 | Zone | `chrisdevops.uk` |
 | Record type | A |
 | Name | `nginx-demo` |
-| Fully qualified name | `nginx-demo.chrisdevops.uk` |
+| Fully qualified name | `ngnix.chrisdevops.uk` |
 | Origin IPv4 | `54.242.5.145` |
 | Proxy status | Proxied |
 | TTL | Auto |
